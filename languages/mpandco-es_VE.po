@@ -1,0 +1,315 @@
+# Copyright (C) 2019 Joyacorp
+# This file is distributed under the same license as the mPandco plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: mPandco 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mpandco\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-05-15T22:10:20+02:00\n"
+"PO-Revision-Date: 2019-05-15 20:28-0400\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: mpandco\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_VE\n"
+
+#. Plugin Name of the plugin
+#: includes/settings_fields.php:18
+msgid "mPandco"
+msgstr "mPandco"
+
+#. Plugin URI of the plugin
+msgid "https://www.mpandco.com"
+msgstr "https://www.mpandco.com"
+
+#. Description of the plugin
+msgid "Pasarela de pago mPandco compatible con woocommerce."
+msgstr "Pasarela de pago mPandco compatible con woocommerce."
+
+#. Author of the plugin
+msgid "Joyacorp"
+msgstr "Joyacorp"
+
+#. Author URI of the plugin
+msgid "https://joyacorp.com"
+msgstr "https://www.joyacorp.com"
+
+#: includes/mpandco_gateway.php:53
+msgid "Proceder con mPandco"
+msgstr "Proceder con mPandco"
+
+#: includes/mpandco_gateway.php:54
+msgid "mPandco Payment"
+msgstr "Pago con mPandco"
+
+#: includes/mpandco_gateway.php:55
+msgid "Metodo de pago electonico mPandco"
+msgstr "Método de pago electrónico"
+
+#: includes/mpandco_gateway.php:62
+msgid "Pagar via mPandco"
+msgstr "Pagar vía mPandco"
+
+#: includes/mpandco_gateway.php:105
+msgid "mPandco acceptance mark"
+msgstr "Marca de aceptación mPandco"
+
+#: includes/mpandco_gateway.php:158 includes/mpandco_gateway.php:170
+msgid "Falla en Auth, comuniquese con el administrador del sitio"
+msgstr "Falla en Auth. Por favor, comuníquese con el administrador del sitio"
+
+#: includes/mpandco_gateway.php:188 includes/mpandco_gateway.php:265
+msgid ""
+"Metodo de pago mPandco no ha sido configurado, comuniquese con el "
+"administrador del sitio"
+msgstr ""
+"Método de pago mPandco no ha sido configurado. Por favor, comuníquese con el "
+"administrador del sitio"
+
+#: includes/mpandco_gateway.php:211
+msgid "Compra en "
+msgstr "Compra en"
+
+#: includes/mpandco_gateway.php:211
+msgid "- orden #"
+msgstr "- orden #"
+
+#: includes/mpandco_gateway.php:224 includes/mpandco_gateway.php:288
+msgid ""
+"Petición denegada por mPandco, vuelva a intentar <br> si el problema "
+"persiste comuniquese con el administrador del sitio es posible que el acceso "
+"a mPandco sea incorrecto"
+msgstr ""
+"Petición denegada por mPandco, vuelva a intentar <br> si el problema "
+"persiste comuníquese con el administrador del sitio. Es posible que el "
+"acceso a mPandco sea incorrecto"
+
+#: includes/mpandco_gateway.php:228
+msgid "Datos enviados a mPandco son incorrectos"
+msgstr "Datos enviados a mPandco son incorrectos"
+
+#: includes/mpandco_gateway.php:272
+msgid "No se ha podido completar el pago"
+msgstr "No se ha podido completar el pago"
+
+#: includes/mpandco_gateway.php:292
+msgid "Error al completar proceso de pago, pago cancelado"
+msgstr "Error al completar el proceso de pago. Pago cancelado"
+
+#: includes/settings_fields.php:9
+msgid "Activar/Desactivar"
+msgstr "Activar/Desactivar"
+
+#: includes/settings_fields.php:11
+msgid "Activar mPandco Payment"
+msgstr "Activar Pago con mPandco"
+
+#: includes/settings_fields.php:15
+msgid "Titulo"
+msgstr "Titulo"
+
+#: includes/settings_fields.php:17
+msgid "Esto controla el título que el usuario ve durante el proceso de pago."
+msgstr "Esto controla el título que el usuario ve durante el proceso de pago."
+
+#: includes/settings_fields.php:25
+msgid ""
+"Esto controla la descripción que el usuario ve durante el proceso de pago."
+msgstr ""
+"Esto controla la descripción que el usuario ve durante el proceso de pago."
+
+#: includes/settings_fields.php:26
+msgid "Pago via mPandco."
+msgstr "Pago vía mPandco."
+
+#: includes/settings_fields.php:33
+msgid "Debug log"
+msgstr "Registro de depuración"
+
+#: includes/settings_fields.php:35
+msgid "Habilitar el registro"
+msgstr "Habilitar el registro"
+
+#: includes/settings_fields.php:37
+msgid ""
+"Registrar eventos mPandco, dentro de %s Nota: esto puede registrar "
+"información personal. Recomendamos usar esto sólo con fines de depuración y "
+"borrar los registros cuando haya terminado."
+msgstr ""
+"Registrar eventos mPandco, dentro de %s Nota: esto puede registrar "
+"información personal. Recomendamos usar esto sólo con fines de depuración y "
+"borrar los registros cuando haya terminado."
+
+#: includes/settings_fields.php:40
+msgid "Credenciales API"
+msgstr "Credenciales API"
+
+#: includes/settings_fields.php:42
+msgid ""
+"Ingrese sus credenciales de API de mPandco para procesar pagos a través de "
+"mPandco. Recuerde crear una cuenta en <a href=\"%s\">App mPandco</a> y "
+"registre su aplicación oAuth."
+msgstr ""
+"Ingrese sus credenciales de API de mPandco para procesar pagos a través de "
+"mPandco. Recuerde crear una cuenta en <a href=\"%s\">App mPandco</a> y "
+"registre su aplicación oAuth."
+
+#: includes/settings_fields.php:46
+msgid "Client ID  de su mPandco"
+msgstr "Client ID  de su mPandco"
+
+#: includes/settings_fields.php:48
+msgid ""
+"El identificador mPandco que recibió para su cuenta OAUTH electrónica mPandco"
+msgstr ""
+"El identificador mPandco que recibió para su cuenta OAUTH electrónica mPandco"
+
+#: includes/settings_fields.php:51
+msgid "Client ID"
+msgstr "Client ID"
+
+#: includes/settings_fields.php:54
+msgid "Client Secret de su mPandco"
+msgstr "Client Secret de su mPandco"
+
+#: includes/settings_fields.php:56
+msgid ""
+"La llave secreta mPandco que recibio para su cuenta OAUTH electronica mPandco"
+msgstr ""
+"La llave secreta mPandco que recibio para su cuenta OAUTH electronica mPandco"
+
+#: includes/settings_fields.php:59
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: includes/settings_fields.php:62
+msgid "mPandco sandbox"
+msgstr "mPandco sandbox"
+
+#: includes/settings_fields.php:64
+msgid "Activar modo de pruebas sandbox"
+msgstr "Activar modo de pruebas sandbox"
+
+#: includes/settings_fields.php:66
+msgid ""
+"Para usar el modo de prueba sandbox de mPandco debe crear una cuenta en <a "
+"href=\"%s\">Sandbox mPandco</a> y registre su aplicación oAuth para obtener "
+"su llaves de prueba."
+msgstr ""
+"Para usar el modo de prueba sandbox de mPandco debe crear una cuenta en <a "
+"href=\"%s\">Sandbox mPandco</a> y registre su aplicación oAuth para obtener "
+"su llaves de prueba."
+
+#: includes/settings_fields.php:69
+msgid "Client ID  de su mPandco sandbox"
+msgstr "Client ID  de su mPandco sandbox"
+
+#: includes/settings_fields.php:71
+msgid ""
+"El identificador mPandco que recibió para su cuenta OAUTH electrónica "
+"mPandco sandbox"
+msgstr ""
+"El identificador mPandco que recibió para su cuenta OAUTH electrónica "
+"mPandco sandbox"
+
+#: includes/settings_fields.php:74
+msgid "Client ID Sandbox"
+msgstr "Client ID Sandbox"
+
+#: includes/settings_fields.php:77
+msgid "Client Secret de su mPandco sandbox"
+msgstr "Client Secret de su mPandco sandbox"
+
+#: includes/settings_fields.php:79
+msgid ""
+"La llave secreta mPandco que recibio para su cuenta OAUTH electronica "
+"mPandco sandbox"
+msgstr ""
+"La llave secreta mPandco que recibio para su cuenta OAUTH electronica "
+"mPandco sandbox"
+
+#: includes/settings_fields.php:82
+msgid "Client Secret Sandbox"
+msgstr "Client Secret Sandbox"
+
+#: mpandco.php:71
+msgid "configuración"
+msgstr "configuración"
+
+#: templates/mpandcoOrder_completed.php:49
+msgid "Orden completada"
+msgstr "Orden completada"
+
+#: templates/mpandcoOrder_completed.php:54
+msgid ""
+"El proceso de pago no se realizo debido a que la orden se encuentra "
+"previamente completada"
+msgstr ""
+"El proceso de pago no se realizo debido a que la orden se encuentra "
+"previamente completada"
+
+#: templates/mpandcoOrder_completed.php:80
+#: templates/mpandcoOrder_Payment_Success.php:80
+msgid "Detalles de la transacción de pago"
+msgstr "Detalles de la transacción de pago"
+
+#: templates/mpandcoOrder_completed.php:96
+#: templates/mpandcoOrder_Payment_Success.php:96
+msgid "Referencia intención de pago: "
+msgstr "Referencia intención de pago: "
+
+#: templates/mpandcoOrder_completed.php:104
+#: templates/mpandcoOrder_Payment_Success.php:104
+msgid "Estado: "
+msgstr "Estado: "
+
+#: templates/mpandcoOrder_completed.php:111
+#: templates/mpandcoOrder_Payment_Success.php:111
+msgid "Total:"
+msgstr "Total:"
+
+#: templates/mpandcoOrder_completed.php:115
+#: templates/mpandcoOrder_Payment_Success.php:115
+msgid "Items"
+msgstr "Items"
+
+#: templates/mpandcoOrder_completed.php:116
+#: templates/mpandcoOrder_Payment_Success.php:116
+msgid "Envio"
+msgstr "Envio"
+
+#: templates/mpandcoOrder_completed.php:117
+#: templates/mpandcoOrder_Payment_Success.php:117
+msgid "Tax"
+msgstr "Tax"
+
+#: templates/mpandcoOrder_completed.php:118
+#: templates/mpandcoOrder_Payment_Success.php:118
+msgid "Monto"
+msgstr "Monto"
+
+#: templates/mpandcoOrder_completed.php:139
+#: templates/mpandcoOrder_Payment_Success.php:139
+msgid "Transacciones: "
+msgstr "Transacciones: "
+
+#: templates/mpandcoOrder_completed.php:145
+#: templates/mpandcoOrder_Payment_Success.php:145
+msgid "Transacción: "
+msgstr "Transacción: "
+
+#: templates/mpandcoOrder_completed.php:156
+#: templates/mpandcoOrder_Payment_Success.php:156
+msgid "Total: "
+msgstr "Total: "
+
+#: templates/mpandcoOrder_Payment_Success.php:49
+msgid "Pago completado"
+msgstr "Pago completado"
+
+#: templates/mpandcoOrder_Payment_Success.php:54
+msgid "El proceso de pago se ha completado con exito"
+msgstr "El proceso de pago se ha completado con éxito"
